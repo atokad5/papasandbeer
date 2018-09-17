@@ -9,7 +9,7 @@ $txtColor = get_field('color_text');
 
 
 
-<section class="event-header_new this-is-a-test">
+<section class="event-header_new">
   <div class="inner">
     <div class="event-container">
       <div class="event-container--inner">
