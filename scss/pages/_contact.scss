@@ -1,0 +1,213 @@
+.is-contact-hero{
+  p{
+    line-height: 20px;
+  }
+}
+.has-btn-padding{
+  padding-bottom: 4em;
+}
+.contact-form-page-form{
+  max-width: 600px;
+  margin: -1em auto 0 auto;
+  background: white;
+  z-index: 9;
+  position: relative;
+  text-align: center;
+  box-shadow: 0px 0px 10px rgba(black, 0.3);
+  form{
+    padding: 0em !important;
+  }
+  .fc-form{
+    box-shadow: 0px !important;
+  }
+  input[type="text"] , input[type="tel"], input[type="email"] , textarea{
+    background: none;
+    border: 2px solid rgba(black, 0.03);
+  }
+  
+  textarea{
+    width: 100%;
+    max-width: 100%;
+    height: 150px;
+    max-height: 150px;
+    padding: 1em 0em 1em 0em;
+    outline: none;
+    margin: 0;
+  }
+  input[type="submit"]{
+    background: $red;
+    font-size: 1em;
+    letter-spacing: 2px;
+    font-weight: lighter;
+    margin-top: 1em;
+    height: 65px;
+  }
+  h2{
+    max-width: 95%;
+    padding-top: 1em;
+  }
+}
+.letsconnect{
+  color: $black;
+  padding: 4em 0;
+  h1{
+    margin: 0;
+    text-transform: uppercase;
+  }
+  hr{
+    height: 5px; 
+    border: none;
+    width: 40%;
+    max-width: 100px;
+    background: $red;
+    margin: 1em auto 2em auto;
+  }
+  .fa{
+    margin: 0em 0.7em;
+    font-size: 1.4em;
+  }
+  a{
+    color: $black;
+  }
+}
+  html{
+    .formcraft-css{
+    box-shadow: 0px !important;
+  }
+  .fc-form {
+    box-shadow: 0px !important;
+  }
+  }
+  .formcraft-css{
+    box-shadow: 0px !important;
+  }
+  .fc-form {
+    box-shadow: 0px !important;
+  }
+  form{
+    box-shadow: none !important;
+    box-shadow: 0px !important;
+  }
+@media(min-width: $bp-md){
+  .is-contact-hero{
+    p{
+      line-height: 25px;
+    }
+  }
+  .contact-form-page-form{
+    margin: 0em auto 0em auto;
+    z-index: 999;
+    top: -70px;
+    position: relative;
+    h2{
+      max-width: 95%;
+      padding-top: 0em;
+    }
+  }
+  .form-liner-contact{
+    // padding: 4em 2em 0em 2em;
+
+  }
+  .letsconnect{
+    color: $black;
+    padding: 6em 0;
+    h1{
+      margin: 0;
+      font-size: 2.8em;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+    hr{
+      margin: 1em auto 2.5em auto;
+    }
+    .fa{
+      margin: 0em 0.7em;
+      font-size: 1.8em;
+    }
+  }
+}
+
+
+
+// Two Cards
+.two-card-block{
+  padding-bottom: 4em;
+}
+.two-card-it{
+  text-align: center;
+  background: #f2f2f2;
+  margin-bottom: 2em;
+  position: relative;
+  overflow: hidden;
+  &:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(black, 0.6);
+  }
+  h2{
+    padding: 5em 0;
+    z-index: 1;
+    position: relative;
+    color: white;
+
+  }
+  &:hover{
+    .two-card-it-bg{
+      transform: scale(1.2);
+      transition: all 1600ms ease;
+    }
+  }
+}
+.two-card-it-bg{
+  background-size: cover;
+  background-position: center;
+  position:absolute;
+  top:0; 
+  left: 0;
+  width: 100%;
+  z-index: 0;
+  transition: all 300ms ease;
+  height: 100%;
+}
+@media(min-width: $bp-md){
+    // Two Cards
+  .two-card-block{
+    padding-bottom: 8em;
+  }
+  .the-two-section{
+    display: flex;
+    max-width: 1100px;
+    margin: auto;
+  }
+  .two-card-it{
+    text-align: center;
+    background: #f2f2f2;
+    width: 45%;
+    margin: 0em 2.5%;
+    h2{
+      padding: 3em 0;
+      font-size: 2.5em;
+    }
+  }
+}
+
+@media(min-width: $bp-lg){
+  .two-card-block{
+    padding-bottom: 10em;
+  }
+  .two-card-it{
+    h2{
+      padding: 3.5em 0;
+    }
+  }
+}
+
+.page-template-contact{
+  .footer-section{
+    display: none;
+  }
+}

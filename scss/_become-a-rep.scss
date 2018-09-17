@@ -1,0 +1,40 @@
+.is-become-rep{
+	h2{
+		color: $green;
+	}
+}
+.icon-packages{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 2em 0em 6em 0em;
+}
+.iconer-pack{
+	text-align: center;
+	width: 50%;
+	margin-bottom: 2em;
+
+	h3{
+		font-size: 1em;
+	}
+
+}
+.iconer_img{
+	width: 40%;
+	margin: auto;
+	img{
+		width: 100%;
+	}
+}
+
+@media(min-width: $bp-sm){
+	.iconer-pack{
+		width: 25%;
+
+		h3{
+			font-size: 1em;
+			padding-top: 0.6em;
+		}
+
+
+	}
+}

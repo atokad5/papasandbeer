@@ -1,0 +1,597 @@
+$yellow: #ebe91a;
+
+.the-com-header{
+	position: relative;
+	.is-hero-bg{
+		position: fixed;
+		top: 0%;
+		&:after{
+			content: "";
+			position: absolute;
+			top: 0; left: 0;
+			width: 100%;
+			height: 100%;
+			background: rgba(white, 0.6);
+		}
+	}
+}
+.become-a-rep{
+	.is-hero-bg{
+		position: absolute;
+		top: 0%;
+		&:after{
+			content: "";
+			position: absolute;
+			top: 0; left: 0;
+			width: 100%;
+			height: 100%;
+			background: rgba(white, 0.6);
+		}
+	}
+}
+#snapchat{
+	color: $black;
+}
+.follow-us-com{
+	color: $black;
+}
+.the-fader-bar{
+	content: "";
+		position: absolute;
+		bottom: 0%;
+		left: 0%;
+		width: 100%;
+		height: 45%;
+		opacity: 0;
+	  background: red;
+    background: -webkit-linear-gradient(rgba(white, 0), rgba(white, 0.7), rgba(white, 0.9), rgba(white, 1));
+    background: -o-linear-gradient(rgba(white, 0), rgba(white, 0.7), rgba(white, 0.9), rgba(white, 1));
+    background: -moz-linear-gradient(rgba(white, 0), rgba(white, 0.7), rgba(white, 0.9), rgba(white, 1));
+    background: linear-gradient(rgba(white, 0), rgba(white, 0.7), rgba(white, 0.9), rgba(white, 1));
+}
+.inner-com-content{
+	position: relative;
+	z-index: 2;
+	padding: 5em 0em;
+}
+.social-media-row{
+	display:flex;
+	max-width: 500px;
+	margin: auto;
+}
+.the-social-media-icons{
+	width: 25%;
+	text-align: center;
+	padding: 2em 0em;
+	img{
+		width: 30%;
+	}
+}
+.com-header-h{
+	max-width: 700px;
+	margin: auto;
+	text-align: center;
+	padding: 3em 0em;
+}
+.inner-com-content{
+	input[type="email"]{
+		background: transparent !important;
+		border-bottom: 2px solid $black;
+		z-index: 23;
+		position: relative;
+		&:focus{
+			+ label{
+				color: $red;
+			}
+		}
+	}
+	input[type="submit"]{
+		background: $red;
+	}
+	label{
+
+	}
+}
+.input-field{
+	position: relative;
+	z-index: 6;
+}
+.email-address-com{
+	position: absolute;
+	z-index: -1;
+}
+.the-com-form{
+	max-width: 750px;
+	margin: auto;
+}
+.follow-us-com{
+	text-align: center;
+	z-index: 1;
+	letter-spacing: 2px;
+	margin-top: 1em;
+	position: relative;
+}
+.down-arrow{
+	width: 30px;
+	margin: auto;
+	padding-top: 1em;
+	img{
+		width: 100%;
+	}
+}
+
+
+.social-section-title{
+	text-align: center;
+	font-weight: bolder;
+	margin: 0em;
+	font-family: $heavy;
+}
+.snapper{
+	color: $yellow;
+}
+.instagramer{
+	color: #c34143;
+}
+.facebooker{
+	color: #465993;
+	padding-top: 2em;
+}
+.twitterer{
+	color: #699eea;
+	padding: 3em 0em 4em 0em;
+}
+.social-tagger{
+	text-align: center;
+	padding: 1em 0em 2em 0em;
+	max-width: 650px;
+	margin: auto;
+}
+.the-snapper-img{
+	max-width: 300px;
+	margin: auto;
+	img{
+		width: 100%;
+	}
+}
+.the-phone-parent-c{
+	position: relative;
+	height: 500px;
+}
+.the-phone{
+	position: relative;
+	margin: 4em  auto 0em auto;
+	max-width: 500px;
+	width: 100%;
+	bottom: -20%;
+	img{
+		width: 100%;
+		position: absolute;
+	}
+}
+
+.instagram-section{
+	background: #EEEEEE;
+	.inner{
+		padding: 2em 0em 5em 0em;
+	}
+}
+#instafeed{
+	width: 100% !important;
+	img{
+		width: 48%;
+		margin: 0em 1% 0.1em 1%;
+	}
+}
+.mini-inner-feed{
+	max-width: 950px;
+	margin: auto;
+	position: relative;
+	padding: 2em 0em;
+	text-align: center;
+	.btn{
+		margin-top: 1em;
+		float: none;
+		background: red;
+	  background: -webkit-linear-gradient(left, #c0265a , #d77536);
+	  background: -o-linear-gradient(right, #c0265a, #d77536);
+	  background: -moz-linear-gradient(right, #c0265a, #d77536);
+	  background: linear-gradient(to right, #c0265a , #d77536);
+	  &:after{
+	  	display: none;
+	  	content: "";
+	  }
+	  &:before{
+	  	content: "";
+	  	display: none;
+	  }
+	}
+}
+.social-iconic{
+	width: 280px;
+	height: 280px;
+	// background: $red;
+	position: absolute;
+	top: -100px;
+	display: none;
+	left: 100px;
+}
+.social-iconic-facebook{
+	// background-color: #465993;
+	width: 280px;
+	height: 280px;
+	color: white;
+	top: -100px;
+	right: 100px;
+	position: absolute;
+	display: none;
+	z-index: 2;
+}
+.the-hig-liner{
+	position: relative;
+	padding: 2em 0em 4em 0em;
+	z-index: 1;
+}
+.the-facebook-feed{
+	max-width: 300px;
+	width: 100%;
+	overflow: hidden;
+	margin: auto;
+	padding: 4em 0em;
+	text-align: center;
+	.fb-page{
+		margin: auto !important;
+		padding-bottom: 2em;
+	}
+	.btn{
+		background: #465993;
+		display: inline-block;
+		margin-top: 2em 0em;
+		&:after{
+	  	display: none;
+	  	content: "";
+	  }
+	  &:before{
+	  	content: "";
+	  	display: none;
+	  }
+	}
+}
+
+.instagram-section , .facebook-section{
+	position: relative;
+}
+.is-off-color{
+	background: #EEE;
+}
+.is-section-bg{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	background-size: cover;
+	background-position: center;
+	top: 0;
+	left: 0;
+}
+.the-twitter-feed{
+	max-width: 300px;
+	text-align: center;
+	margin: 2em auto 0em auto;
+	.btn{
+		background-color: #699eea;
+		margin: 3em 0em;
+		&:after{
+	  	display: none;
+	  	content: "";
+	  }
+	  &:before{
+	  	content: "";
+	  	display: none;
+	  }
+	}
+}
+.timeline-Header-title .u-inlineBlock{
+	display: none;
+}
+.becoming-a-rep{
+	.inner{
+		padding: 4em 0em;
+	}
+}
+.c-content{
+	padding: 6em 0em;
+}
+.the-becoming-inner{
+	max-width: 500px;
+	position: relative;
+	z-index: 3;
+	margin: auto;
+	padding: 4em 0em;
+	text-align: center;
+	background: rgba(white, 0.5);
+	ul{
+		text-align: left;
+			width: 90%;
+			margin: auto;
+		padding: 1em 0em 1em 0em;
+		list-style-type: none;
+		li{
+			margin-bottom: 1em;
+			font-family: $heavy;
+			&:before{
+				content: "\f00c"; /* FontAwesome Unicode */
+				font-family: FontAwesome;
+				padding-right: 1em;
+				color: $green;
+			}
+		}
+	}
+	h1{
+		text-transform: uppercase;
+	}
+}
+.the-becoming-liner{
+	position: relative;
+}
+.small-logo{
+	max-width: 300px;
+	width: 80%;
+	margin: auto;
+	top: -30px;
+	left: 50%;
+	margin-left: -150px;
+	position: absolute;
+	img{
+		width: 100%;
+		transform: translateY(-100%);
+	}
+}
+
+
+
+
+
+@media(min-width: $bp-md){
+	.c-content{
+		padding: 10em 0em;
+	}
+	.the-becoming-inner{
+		max-width: 500px;
+		position: relative;
+		z-index: 3;
+		margin: auto;
+		padding: 4em 0em;
+		text-align: center;
+		background: rgba(white, 0.5);
+		ul{
+			text-align: left;
+			width: 80%;
+			margin: auto;
+			padding: 1em 0em 1em 0em;
+			list-style-type: none;
+			li{
+				margin-bottom: 1em;
+				font-family: $heavy;
+				&:before{
+					content: "\f00c"; /* FontAwesome Unicode */
+					font-family: FontAwesome;
+					padding-right: 1em;
+					color: $green;
+				}
+			}
+		}
+		h1{
+			font-size: 2em;
+		}
+	}
+	.the-facebook-feed{
+		max-width: 500px;
+	}
+	.the-twitter-feed{
+		max-width: 500px;
+	}
+
+
+
+
+}
+
+
+@media(min-width: $bp-lg){
+	.c-content{
+		padding: 10em 0em;
+	}
+	.the-becoming-inner{
+		max-width: 500px;
+		position: relative;
+		z-index: 3;
+		margin: auto;
+		padding: 4em 0em;
+		text-align: center;
+		background: rgba(white, 0.5);
+		ul{
+			// margin: 0;
+			padding: 1em 0em 1em 0em;
+			list-style-type: none;
+			text-align: left;
+			width: 80%;
+			margin: auto;
+			li{
+				margin-bottom: 1em;
+				font-family: $heavy;
+				&:before{
+					content: "\f00c"; /* FontAwesome Unicode */
+					font-family: FontAwesome;
+					padding-right: 1em;
+					color: $green;
+				}
+			}
+		}
+		h1{
+			font-size: 2.5em;
+		}
+	}
+
+	.mini-inner-feed{
+		text-align: left;
+	}
+	.the-phone{
+		position: relative;
+		margin: 4em  auto 0em auto;
+		max-width: 500px;
+		width: 100%;
+		bottom: 10%;
+		img{
+			width: 100%;
+			position: absolute;
+		}
+	}
+
+
+}
+
+
+
+
+
+@media(min-width: $bp-md){
+	#instafeed{
+		img{
+			width: 30%;
+			margin: 0em 1.5% 0.1em 1.5%;
+		}
+	}
+	.mini-inner-feed{
+
+		.btn{
+			transform: translateX(7%);
+			margin-top: 1em;
+		}
+	}
+}
+@media(min-width: $bp-lg){
+	.the-com-header{
+		position: relative;
+		height: 650px;
+	}
+	.inner-com-content{
+		position: relative;
+		z-index: 2;
+		padding: 1em 0em;
+	}
+	.the-social-media-icons{
+		width: 25%;
+		text-align: center;
+		padding: 2em 0em;
+		img{
+			width: 30%;
+		}
+	}
+	.com-header-h{
+		max-width: 700px;
+		margin: auto;
+		text-align: center;
+		padding: 3em 0em;
+		h1{
+			font-size: 2em;
+		}
+		p{
+			letter-spacing: 2px;
+			font-size: 1.2em;
+		}
+	}
+	.ending-com{
+		padding: 8em 0em 14em 0em;
+	}
+	.follow-us-com{
+		text-align: center;
+		z-index: 1;
+		letter-spacing: 2px;
+		margin-top: 5em;
+		position: relative;
+	}
+
+	.inner-com-content{
+		input{
+			float: left;
+		}
+		input[type="email"]{
+			background: transparent !important;
+			border-bottom: 2px solid $black;
+			z-index: 23;
+			position: relative;
+			width: 70%;
+			font-size: 2.3em;
+		}
+		input[type="submit"]{
+			background: $red;
+			width: 28%;
+			margin-left: 2%;
+			margin-top: -.6em;
+		}
+		label{
+			font-size: 2.3em;
+			margin-top: -19px;
+			font-family: arial;
+			font-weight: lighter;
+			color: grey;
+			letter-spacing: 3px;
+		}
+	}
+	.input-field{
+		position: relative;
+		z-index: 6;
+	}
+	.email-address-com{
+		position: absolute;
+		z-index: -1;
+	}
+	.social-tagger{
+		padding-top: 4em;
+		font-size: 1.2em;
+		letter-spacing: 1px;
+	}
+	#instafeed{
+		img{
+			width: 21%;
+			margin: 0em 2% 1em 2%;
+		}
+	}
+	.mini-inner-feed{
+		max-width: 950px;
+		margin: auto;
+		position: relative;
+		padding: 5em 0em;
+		// transform: translateX(20%);
+		.btn{
+			transform: translateX(7%);
+			margin-top: 1em;
+		}
+	}
+}
+
+@media(min-width: $bp-xxl){
+	.mini-inner-feed{
+		transform: translateX(20%);
+		.btn{
+			transform: translateX(7%);
+			margin-top: 1em;
+		}
+	}
+	.social-iconic, .social-iconic-facebook{
+		display: block;
+	}
+}
+
+
+
+
+
+
+
+
+.page-template-community{
+	footer{
+		display: none;
+	}
+}

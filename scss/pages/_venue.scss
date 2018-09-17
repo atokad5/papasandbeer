@@ -1,0 +1,181 @@
+.is-venue_clicker{
+	padding: 1em 0em;
+	background: white;
+	border-top: 3px solid $green;
+	border-bottom: 3px solid $green;
+}
+.is-cat-clicker{
+	position: relative;
+	margin-top: 3em !important;
+	margin-bottom: 0.2em !important;
+}
+.clicker-icons{
+	width: 45px;
+	margin-left: -22px;
+	left: 50%;
+	// transform: translateX(50%);
+	position: absolute;
+	top: -20px;
+	img{
+		width: 100%;
+	}
+}
+.wat_expect {
+    font-weight: bolder;
+    font-family: $Bebas;
+    font-size: 3em;
+    width: 250px;
+    color: #367e2c;
+    margin: 0.4em auto 1em auto;
+    padding: 0.5em 0em;
+}
+.is-eightteen{
+	padding: 4em 0em;
+	position: relative;
+	text-align: center;
+	.fa-play{
+		display: block !important;
+		&:after{
+			display: none;
+		}
+	}
+}
+.is-section-bg-eightteen{
+	position: absolute;
+	top: 0; left: 0;
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	&:after{
+		content: "";
+		position: absolute;
+		top: 0; left: 0;
+		height: 100%;
+		width: 100%;
+		background-color: rgba(white, 0.8);
+	}
+}
+.age{
+	background: $green;
+	padding: 0.5em;
+	display: inline-block;
+	margin: auto;
+	color: white;
+	font-family: $heavy;
+	font-size: 1.8em;
+	font-wight: 500;
+}
+.eightteener-content{
+	position: relative;
+	z-index: 2;
+	max-width: 715px;
+	margin: auto;
+	line-height: 35px;
+}
+.ei-content{
+	padding: 1em 0em;
+	font-family: $med;
+	font-weight: bolder;
+
+}
+.the-v-player{
+	border: 2px solid $red;
+	width: 60px;
+	font-size: 1.4em !important;
+	border-radius: 100%;
+	margin: auto;
+	height: 60px;
+	color: $red;
+	line-height: 60px !important;
+	cursor: pointer;
+}
+.watch-spring{
+	font-family: $heavy;
+	font-weight: bolder;
+	padding-top: 0.3em;
+	color: $red;
+}
+
+
+
+
+
+
+
+
+@media(min-width: $bp-md){
+	.is-venue_clicker{
+		width: 100%;
+		padding-bottom: 2em;
+		li{
+			text-align: center;
+			// padding-left: 2em;
+			
+		}
+	}
+	.wat_expect {
+    margin-top: 1em;
+	}
+	.age{
+		background: $green;
+		padding: 0.5em;
+		display: inline-block;
+		margin: auto;
+		color: white;
+		font-family: $heavy;
+		font-size: 1.8em;
+		font-wight: 500;
+	}
+	.eightteener-content{
+		position: relative;
+		z-index: 2;
+		max-width: 715px;
+		margin: auto;
+		padding: 4em 0em;
+		line-height: 35px;
+	}
+	.ei-content{
+		padding: 1em 0em 5em 0em;
+		font-size: 1.2em;
+		font-family: $med;
+		font-weight: bolder;
+
+	}
+	.the-v-player{
+		border: 2px solid $red;
+		width: 60px;
+		font-size: 1.4em !important;
+		border-radius: 100%;
+		margin: auto;
+		height: 60px;
+		line-height: 60px !important;
+		cursor: pointer;
+	}
+	.watch-spring{
+		font-family: $heavy;
+		font-weight: bolder;
+		padding-top: 0.1em;
+		font-size: 1.3em;
+	}
+
+
+}
+
+@media(min-width: $bp-lg){
+	.is-venue_clicker{
+		width: 100%;
+		li{
+			text-align: center;
+			
+			// padding-left: 3.5em;
+		}
+	}
+}
+
+
+	.hasboxshadow{
+		position: relative;
+		z-index: 3;
+		box-shadow: 0px 0px 30px rgba(black, 0.3) !important;
+	}

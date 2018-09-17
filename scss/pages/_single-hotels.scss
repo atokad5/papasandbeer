@@ -1,0 +1,269 @@
+.the-main-image-hotel{
+	position: relative;
+}
+.main-image-hotel{
+	width: 100%;
+	img{
+		width: 100%;
+	}
+}
+.the-main-hotel-card{
+	background: white;
+	max-width: 600px;
+	margin: auto;
+	h1{
+		color: $green;
+		padding-bottom: 0.3em;
+		font-family: $headerFont;
+		letter-spacing: 1px;
+		margin: 0;
+		font-size: 1.6em;
+	}
+	.link-color{
+		color: $blue;
+		font-family: $heavy;
+		text-decoration: underline;
+	}
+	h2{
+		padding: 1em 0em 0em 0em;
+	}
+	strong{
+		font-weight: bolder;
+		font-family: $heavy;
+	}
+	.btn-block{
+		text-align: center;
+	}
+	.g-btn{
+		float: none;
+		border: 2px solid $blue;
+		margin: auto !important;
+		display: inline-block !important;
+	}
+}
+.exped{
+	position: absolute;
+	top: 0;
+	right: 0px;
+	width: 100%;
+	max-width: 64px;
+}
+.the-main-hotel-card-inner{
+	padding: 2em;
+}
+.hotel-pin{
+	max-width: 40px;
+	margin: auto;
+	padding-bottom: 0.3em;
+	img{
+		width: 100%;
+	}
+}
+.g-btn{
+	position: relative !important;
+	border: 2px solid $blue;
+}
+.check-in-box{
+	background: #f2f2f2;
+	padding: 0.5em 0em;
+	margin: 2em 0em;
+}
+.hotel-media{
+	padding: 4em 0em;
+	position: relative;
+	h1{
+		color: $green;
+		font-family: $headerFont;
+		font-size: 1.6em;
+		letter-spacing: 2px;
+		padding-bottom: 1em;
+	}
+}
+.hotel-img-slide{
+	width: 50%;
+	margin: 0em 0.4em;
+	img{
+		width: 100%;
+	}
+}
+.the-image-slider-hotels{
+	position: relative;
+}
+
+.hotel-features{
+
+	h1{
+		color: $green;
+		font-family: $headerFont;
+		letter-spacing: 1px;
+		font-size: 1.6em;
+	}
+	p{
+		line-height: 32px;
+		letter-spacing: 1px;
+	}
+	.the-features-content{
+		padding: 2em;
+		max-width: 1000px;
+		margin: auto;
+	}
+	.btn-block{
+		text-align: center;
+		padding: 3em 0em;
+	}
+	.g-btn{
+		float: none !important;
+		margin: auto !important;
+		displat: inline-block !important;
+	}
+}
+.the-list-of-features{
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 1000px;
+	margin: auto;
+
+}
+.f-item-parent{
+	width: 50%;
+	text-align: center;
+	padding-bottom: 2em;
+}
+.hotel-features-header{
+	padding: 1em 0em 2em 0em;
+	text-align: center;
+	color: $black !important;
+
+}
+.the-item-features{
+	&:before{
+		content: "\f00c"; /* FontAwesome Unicode */
+		font-family: FontAwesome;
+		padding-right: 1em;
+		color: $green;
+	}
+}
+.is-hotel-questions{
+	.btn-block{
+			text-align: center;
+			padding: 2em 0em;
+		}
+	.g-btn{
+		float: none !important;
+		margin: auto !important;
+		displat: inline-block !important;
+	}
+}
+.cat-hotel-singles{
+	padding: 4em 0em;
+}
+.the-hotel-single-carder{
+	position: relative;
+	padding: 4em 0em;
+}
+.hotels-carders{
+	margin: auto;
+	float: none;	
+	justify-content: center;
+}
+.the-hotel-single-carder{
+	h1{
+		color: $green;
+		text-transform: uppercase;
+		font-family: $headerFont;
+		letter-spacing: 1px;
+	}
+}
+
+.is-grey{
+	background: #f2f2f2;
+	padding: 3em 0em;
+}
+.hotels-loger{
+	padding-top: 6em;
+}
+@media(min-width: 915px){
+	.hotels-loger{
+		padding-top: 12em;
+	}
+}
+@media(min-width: $bp-lg){
+	.main-image-hotel{
+		width: 80%;
+		img{
+			width: 100%;
+		}
+	}
+	.the-main-hotel-card{
+		position: absolute;
+		box-shadow: 0px 0px 15px rgba(black, 0.4);
+		right: 0%;
+		top: 50%;
+		transform: translateY(-50%);
+		h1{
+			font-size: 2em;
+		}
+
+	}
+
+	.the-main-hotel-card-inner{
+		padding: 3em 3em;
+	}
+
+	.hotel-media{
+		padding: 8em 0em;
+		h1{
+			padding-bottom: 1em;
+			font-size: 2.5em;
+		}
+	}
+	.hotel-img-slide{
+		width: 25%;
+		margin: 0em 0.4em;
+		img{
+			width: 100%;
+		}
+	}
+	.hotel-features{
+		h1{
+			color: $green;
+			font-family: $headerFont;
+			letter-spacing: 1px;
+			font-size: 2.5em;
+		}
+		p{
+			line-height: 32px;
+			letter-spacing: 1px;
+		}
+		.the-features-content{
+			padding: 2em 0em;
+		}
+		.btn-block{
+			text-align: center;
+		}
+		.g-btn{
+			float: none !important;
+			margin: auto !important;
+			displat: inline-block !important;
+		}
+	}
+	.exped{
+		position: absolute;
+		top: -2px;
+		right: -64px;
+		width: 100%;
+		max-width: 64px;
+		border: 2px solid $blue;
+	}
+	.hotel-features-header{
+		padding: 3em 0em 2em 0em;
+		text-align: center;
+		color: $black !important;
+	}
+	.f-item-parent{
+		width: 25%;
+		text-align: center;
+		padding-bottom: 3em;
+	}
+}
+

@@ -1,0 +1,179 @@
+.the-subheader{
+  .inner{
+    padding: 3em 0em;
+  }
+}
+.the-beachtown-card{
+  max-width: 600px;
+  box-shadow: 0px 0px 10px rgba(black, 0.4);
+  margin-bottom: 2em;
+  text-align: center;
+  background: white;
+  h1{
+    color: $green;
+  }
+}
+
+.icon-flex{
+  padding: 0;
+  width: 70%;
+  margin: auto;
+  list-style-type: none;
+  text-align: left;
+  text-transform: uppercase;
+}
+.img-pe{
+  width: 100%;
+  img{
+    width: 50px;
+  }
+  span{
+    top: -15px;
+    padding-left: 1em;
+    position: relative;
+    font-weight: bolder;
+    font-family: $heavy;
+  }
+}
+
+
+.beachtown-inner{
+  padding: 1em;
+}
+.beach-mapper{
+  width: 100%;
+  img{
+    width: 100%;
+  }
+}
+
+.the-welcome-content{
+  position: relative;
+  z-index: 4;
+  padding: 4em 0em;
+  text-align: center;
+  color: white;
+  width: 80%; margin: auto;
+  .g-btn{
+    display: inline-block;
+    margin: 1em auto 0em auto;
+    text-align: center;
+    float: none;
+  }
+  h1{
+    padding: 1em 0em;
+  }
+}
+.welcome-icon{
+  max-width: 220px;
+  margin: auto;
+  width: 50%;
+  img{
+    width: 100%;
+  }
+}
+
+@media(min-width: $bp-md){
+  .the-welcome-content{
+    padding: 5em 0em;
+    .g-btn{
+      margin: 1em auto 0em auto;
+    }
+    h1{
+      padding: 0.5em 0em;
+      font-size: 2em;
+    }
+    p{
+      font-size: 1.1em;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+@media(min-width: $bp-lg){
+  .beachtown-inner{
+    padding: 2em 1em;
+  }
+  .icon-flex{
+    padding: 1em 0em;
+    width: 100%;
+    margin: auto;
+    list-style-type: none;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .img-pe{
+    width: 33%;
+    float: left;
+    display: inline;
+    img{
+      width: 50px;
+    }
+    span{
+      top: -15px;
+      padding-left: 1em;
+      position: relative;
+      font-weight: bolder;
+      font-family: $heavy;
+      font-size: 0.8em;
+    }
+  }
+
+  .the-welcome-content{
+    padding: 6em 0em;
+    .g-btn{
+      margin: 2em auto 0em auto;
+    }
+    h1{
+      padding: 0.4em 0em 0 0;
+      font-size: 3em;
+    }
+    p{
+      font-size: 1.2em;
+    }
+  }
+
+
+  .is-higher{
+    top: 30% !important;
+  }
+
+
+  .the-beachtown-card{
+    position: absolute;
+
+    h1{
+      font-size: 2.2em;
+    }
+    p{
+      font-size: 1.12em;
+      line-height: 35px;
+    }
+  }
+
+  .the-beach-mapper{
+    width: 65%;
+    float: right;
+  }
+  .beach-mapper{
+    margin-top: 200px;
+  }
+}
+
+
+@media(min-width: $bp-xl){
+  .the-beachtown-card{
+    max-width: 700px;
+  }
+  .beach-mapper{
+    margin-top: 70px;
+  }
+}

@@ -1,0 +1,43 @@
+.wkdrs-section{
+	text-align: center;
+	small{
+		font-family: $headerFont;
+	}
+}
+.inner-wkdrs{
+	max-width: 1200px;
+	margin: auto;
+}
+.wkdrs{
+	max-width: 500px;
+	margin: auto;
+	img{
+		width: 100%;
+	}
+}
+.shuttle{
+	color: $green;
+	font-family: $headerFont;
+	font-size: 2em;
+	padding: 1em 0em;
+}
+.section-details{
+	h1{
+		font-size: 1.3em;
+	}
+}
+
+
+
+@media(min-width: $bp-lg){
+	.shuttle{
+		font-size: 3em;
+	}
+	.section-details{
+		padding-bottom: 6em;
+		h1{
+			font-size: 3em;
+			margin-bottom: 0.5em;
+		}
+	}
+}

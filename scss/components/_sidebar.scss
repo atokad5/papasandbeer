@@ -1,0 +1,31 @@
+.sidebar-widget{
+  width: 30%;
+  display: none;
+  background: #EEE;
+  position: relative;
+
+
+}
+.sidebar-inner{
+	width: 95%;
+	padding: 1em 0em;
+	margin: auto;
+	position: relative;
+	overflow: hidden;
+
+
+	img{
+		max-width: 100%;
+		width: 100%;
+	}
+
+	a , h1{
+		color: $red;
+	}
+}
+
+@media(min-width: $bp-lg){
+	.sidebar-widget{
+		display: block;
+	}
+}

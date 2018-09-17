@@ -1,0 +1,118 @@
+.places_to-eat{
+  padding: 4em 0em;
+}
+.places-to--eat-top-section{
+  text-align: center;
+  max-width: 660px;
+  margin: auto;
+  position: relative;
+  z-index: 4;
+
+  h1{
+    color: $green;
+  }
+  p{
+    line-height: 30px;
+  }
+}
+
+.the-place-cards{
+  padding: 4em 0em 0em;
+  position: relative;
+  z-index: 4;
+  &:after{
+    content: 'flickity';
+    display: none;
+
+  }
+}
+.place-card{
+  width: 100%;
+  background: white;
+
+}
+.the-place-header{
+  height: 250px;
+  position: relative;
+}
+.place-inner{
+  text-align: center;
+  padding: 1em;
+}
+.small-taco{
+  width: 35px;
+}
+@media(min-width: $bp-md){
+  .places-to--eat-top-section{
+
+    h1{
+      font-size: 2em;
+    }
+    p{
+      line-height: 30px;
+    }
+  }
+  .the-place-cards{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1120px;
+    margin: auto;
+    &:after{
+      content: '';
+      display: none;
+  
+    }
+  }
+  .place-card{
+    width: 45%;
+    margin: 0 2.5% 4em 2.5%;
+    box-shadow: 0px 0px 10px rgba(black, 0.3);
+
+  }
+  .the-place-header{
+    height: 300px;
+    position: relative;
+  }
+  .place-inner{
+    text-align: center;
+    padding: 1em;
+    h2{
+     font-size: 1.65em;
+    }
+    p{
+      font-size: 1em;
+      line-height: 30px;
+    }
+  }
+  .small-taco{
+    width: 35px;
+  }
+}
+
+
+
+@media(min-width: $bp-lg){
+  .places-to--eat-top-section{
+
+    h1{
+      font-size: 2.3em;
+    }
+    p{
+      line-height: 30px;
+      font-size: 1.1em;
+    }
+  }
+  
+}
+
+@media(min-width: $bp-xl){
+  .places-to--eat-top-section{
+
+   
+    p{
+      line-height: 35px;
+      font-size: 1.2em;
+    }
+  }
+  
+}

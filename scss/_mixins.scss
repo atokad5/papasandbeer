@@ -1,0 +1,15 @@
+@mixin clearfix(){
+	&:after{
+		content: "";
+		position: relative;
+		display: block;
+		clear: both;
+	}
+}
+
+
+@mixin button($color){
+	outline: none;
+	border: none;
+	background: $color;
+}

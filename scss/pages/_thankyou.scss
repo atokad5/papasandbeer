@@ -1,0 +1,209 @@
+.th-header{
+	position: relative;
+	text-align: center;
+}
+.th-bg{
+	position: absolute;
+	top: 0; left: 0;
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+}
+.th-content-block{
+	position: relative;
+	z-index: 1;
+	padding: 3em 0em;
+	h1{
+		color: $green;
+		font-family: $headerFont;
+		letter-spacing: 1px;
+	}
+	p{
+		font-size: 0.9em;
+	}
+	strong{
+		font-family: $heavy;
+	}
+	.social-share{
+		position: relative;
+		z-index: 4;
+		opacity: 1;
+		transform: translate(0px, 0px);
+	}
+	.btn{
+		margin-top: 2em;
+	}
+}
+.conf-img{
+	max-width: 500px;
+	margin: auto;
+	img{
+		width: 100%;
+	}
+}
+
+.the-howto{
+	background: #f2f2f2;
+	padding: 3em 0em;
+	.inner{
+		max-width: 1020px;
+		margin: auto;
+	}
+	h1{
+		color: $green;
+		font-family: $headerFont;
+		letter-spacing: 1px;
+		text-align: center;
+	}
+	ol{
+		margin: 0;
+		padding: 3em 1em;
+		li{
+			margin-bottom: 2em;
+			font-size: 0.9em;
+			&:last-of-type{
+				margin-bottom: 0em;
+			}
+		}
+	}
+}
+.the-map-ic{
+	display: none;
+}
+@media(min-width: $bp-md){
+	.th-content-block{
+		position: relative;
+		z-index: 1;
+		padding: 1em 0em;
+		h1{
+			color: $green;
+			font-family: $headerFont;
+			letter-spacing: 1px;
+			font-size: 2.3em;
+			padding-bottom: 0.8em;
+		}
+		p{
+			font-size: 1em;
+			line-height: 30px;
+		}
+		strong{
+			font-family: $heavy;
+		}
+		.social-share{
+			position: relative;
+			z-index: 4;
+			opacity: 1;
+			transform: translate(0px, 0px);
+		}
+		.btn{
+			margin-top: 2em;
+		}
+	}
+	.conf-img{
+		padding: 1em 0em;
+	}
+	.the-howto{
+		background: #f2f2f2;
+		padding: 3em 0em;
+		.inner{
+			max-width: 1020px;
+			margin: auto;
+		}
+		h1{
+			letter-spacing: 2px;
+			font-size: 2.3em;
+		}
+		ol{
+			margin: 0;
+			padding: 3em 1em;
+			li{
+				margin-bottom: 3em;
+				font-size: 1em;
+				&:last-of-type{
+					margin-bottom: 0em;
+				}
+			}
+		}
+	}
+	
+}
+@media(min-width: $bp-lg){
+	.th-content-block{
+		position: relative;
+		z-index: 1;
+		padding: 0em 0em;
+		h1{
+			color: $green;
+			font-family: $headerFont;
+			letter-spacing: 1px;
+			font-size: 2.8em;
+			padding-bottom: 0.2em;
+		}
+		p{
+			font-size: 1em;
+			line-height: 25px;
+		}
+		strong{
+			font-family: $heavy;
+		}
+		.social-share{
+			position: relative;
+			z-index: 4;
+			opacity: 1;
+			transform: translate(0px, 0px);
+		}
+		.btn{
+			margin-top: 1em;
+		}
+	}
+	.conf-img{
+		padding: 1em 0em;
+	}
+	.the-howto{
+		background: #f2f2f2;
+		padding: 5em 0em;
+		.inner{
+			max-width: 1020px;
+			margin: auto;
+		}
+		h1{
+			letter-spacing: 2px;
+			font-size: 2.3em;
+		}
+		ol{
+			margin: 0;
+			padding: 3em 1em;
+			li{
+				margin-bottom: 3em;
+				font-size: 1.1em;
+				&:last-of-type{
+					margin-bottom: 0em;
+				}
+			}
+		}
+	}
+
+}
+@media(min-width: 1440px){
+	.the-map-ic{
+		display: block;
+		position: absolute;
+		max-width: 250px;
+		right: 100px;
+		top: -45%;
+	}
+	.the-mapping{
+		padding: 10em 0em;
+		.the-map-el{
+			max-width: 900px;
+		}
+		.map-card{
+			position: absolute;
+			right: -50%;
+			top: 50%;
+			text-align: center;
+			transform: translateY(-50%);
+		}
+	}
+}

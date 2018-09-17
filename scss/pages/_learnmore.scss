@@ -1,0 +1,211 @@
+.the-cat-grid{
+	text-align: center;
+	position: relative;
+	color: white;
+	margin-bottom: 2em;
+	transition: hover 800ms $ease-out-quart;
+	overflow: hidden;
+	a{
+		text-decoration: none;
+		color: white;
+	}
+	&:hover{
+		.grid-bg{
+			transform: scale(1.5);
+			transition: transform 6200ms $ease-out-quart;
+		}
+		.category-title{
+			
+		}
+	}
+}
+.grid-bg{
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	transition: transform 300ms $ease-out-quart;
+	width: 100%;
+	&:after{
+		content: "";
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		top: 0;
+		left: 0;
+		background-color: rgba(black, 0.6);
+	}
+}
+
+.the-cat-inner{
+	padding: 6em 0em;
+	position: relative;
+	z-index: 5;
+}
+.category-title{
+	position: relative;
+	display: inline-block;
+	&:after{
+		content: "";
+		position: absolute;
+		right: 0;
+		left: auto;
+		width: 0%;
+		height: 2px;
+		bottom: -4px;
+		background: white;
+		transition: all 500ms $ease-out-quart;
+	}
+}
+
+
+
+.common-faq{
+	color: $green;
+	text-transform: uppercase;
+}
+.padding{
+	padding: 2em 0em;
+}
+
+
+
+
+.dope-main-image{
+	width: 100%;
+	float: right;
+	margin-bottom: 4em;
+	img{
+		width: 100%;
+	}
+}
+
+
+
+.dope-card{
+	text-align: center;
+	padding: 2em 0;
+	max-width: 500px;
+	margin: auto;
+	h1{
+		color: $red;
+		font-size: 3em;
+	}
+	h3{
+		font-size: 1.5em;
+	}
+	p{
+		font-family: $med;
+		font-size: 1.3em;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width: $bp-md){
+	.the-cat-inner{
+		padding: 10em 0em;
+	}
+	.common-inner{
+		h1{
+			padding: 1em 0em;
+			font-size: 2em;
+			margin-bottom: 0.5em;
+		}
+	}
+}
+
+
+@media(min-width: $bp-lg){
+	.is-cat-parent{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.the-cat-grid{
+		width: 30%;
+		margin: 1.5%;
+	}
+
+	.common-faq{
+		color: $green;
+		text-transform: uppercase;
+		font-size: 2.7em;
+	}
+	.common-inner{
+		h1{
+			font-size: 2.2em;
+			margin-bottom: 0.5em;
+		}
+	}
+	.dope-main-image{
+		width: 90%;
+		float: left;
+		position: relative;
+		margin-bottom: 0em;
+		&:after{
+			content: "";
+			position: absolute;
+			top: -10%;
+			right: -5%;
+			width: 15%;
+			height: 120%;
+			background: #f2f2f2;
+			mix-blend-mode: multiply;
+			z-index: -1;
+		}
+		img{
+			width: 100%;
+			position: relative;
+		}
+	}
+
+
+
+	.dope-card{
+		text-align: center;
+		padding: 4em 2em;
+		box-shadow: 0px 0px 10px rgba(black, 0.3);
+		max-width: 500px;
+		z-index: 10;
+		position: absolute;
+		background: white;
+		top: 50%;
+		right: 0;
+		transform: translateY(-50%);
+		margin: auto;
+		h1{
+			color: $red;
+			font-size: 2.6em;
+		}
+		p{
+			font-family: $med;
+		}
+	}
+
+}
+
+.clear{
+	display: block;
+	clear: both;
+}

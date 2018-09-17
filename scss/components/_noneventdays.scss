@@ -1,0 +1,69 @@
+.opendays{
+	text-align: center;
+	padding: 6em 0em;
+}
+.opendays-content{
+	max-width: 720px;
+	margin: auto;
+	position: relative;
+	z-index: 6;
+
+}
+.opendays-header{
+	color: $green;
+}
+.opendays-tagline{
+	font-family: $med;
+	font-weight: bolder;
+	margin: 0em;
+}
+.opendays-texts{
+	line-height: 35px;
+	font-family: $med;
+	font-weight: bolder;
+}
+.vid_content{
+	text-align: left;
+}
+.map-card-inner{
+	text-align: center;
+}
+@media(min-width: $bp-md){
+	.opendays{
+		padding: 8em 0em;
+	}
+	.opendays-header{
+		font-size: 2em;
+	}
+	.opendays-tagline{
+		font-size: 1.2em;
+	}
+	.opendays-texts{
+		font-size: 1.2em;
+	}
+	.opendays-content{
+		.btn{
+			margin-top: 2em;
+		}
+	}
+}
+
+@media(min-width: $bp-lg){
+	.opendays{
+		padding: 8em 0em;
+	}
+	.opendays-header{
+		font-size: 2.7em;
+	}
+	.opendays-tagline{
+		font-size: 1.2em;
+	}
+	.opendays-texts{
+		font-size: 1.2em;
+	}
+	.opendays-content{
+		.btn{
+			margin-top: 2em;
+		}
+	}
+}

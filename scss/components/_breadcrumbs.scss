@@ -1,0 +1,70 @@
+.the-bread{
+	display: none;
+	.inner{
+		position: relative;z-index: 5;
+	}
+}
+
+@media(min-width: $bp-lg){
+	.the-bread{
+		display: block;
+	}
+}
+.bread-crumbs{
+	position: absolute;
+	// top: 120px;
+	z-index: 3;
+	margin: 0;
+	padding: 0;
+	left: -30px;
+
+	li{
+		display: inline;
+		z-index: 9;
+		background: white;
+		position: relative;
+		padding: 0.5em 0.4em 0.5em 1em;;
+		margin-right: 45px;
+		
+
+
+		&:first-of-type{
+			.bottom-bread-arrow, .top-bread-arrow{
+				display: none;
+			}
+		}
+	}
+}
+.theB{
+	color: black;
+	z-index: 9992;
+	position: relative;
+
+	&.is-active{
+		color: $red;
+		text-decoration: underline;
+		font-weight: bolder;
+	}
+
+}
+.bottom-bread-arrow{
+	position: absolute;
+	bottom: 0; left: -20px;
+	z-index: -5;
+	width: 40px;
+}
+
+.top-bread-arrow{
+	position: absolute;
+	top: 0; left: -20px;
+	z-index: -5;
+	width: 40px;
+}
+.right-bread-arrow{
+	position: absolute;
+	right: -22.8px; top: -0.05em;
+	z-index: -5;
+	// width: 24px;
+	height: 101%;
+
+}

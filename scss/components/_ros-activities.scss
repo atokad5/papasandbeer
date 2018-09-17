@@ -1,0 +1,122 @@
+.three-col-ros{
+  max-width: 500px;
+  margin: auto;
+  padding: 2em 0em 4em 0em;
+}
+.the-ros-hotels{
+  hr{
+    max-width: 900px;
+  }
+}
+.three-ros-item{
+  width: 100%;
+  text-align: center;
+  h2{
+    color: $green;
+  }
+  p{
+    line-height: 30px;
+    width: 90%;
+    margin: auto;
+  }
+}
+.the-ros_icon{
+  width: 30%;
+  margin: auto;
+  img{
+    width: 100%;
+  }
+}
+
+.has-ros-padding{
+  padding: 3em 0em 3em 0em;
+}
+
+.the-video-section_grid{
+  margin: auto;
+  padding-bottom: 6em;
+  h2{
+    color: $green;
+  }
+  p{
+    line-height: 30px;
+    width: 90%;
+  }
+}
+.video_grid{
+  width: 100%;
+  position: relative;
+}
+.grid_img{
+  cursor: pointer;
+  width: 100%;
+  position: relative;
+  .fa{
+    position: absolute;
+    z-index: 5;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4em;
+  }
+  img{
+    width: 100%;
+  }
+}
+
+.vid_content{
+  padding: 1em 0em 1.5em 0em;
+}
+
+
+@media(min-width: $bp-md){
+  .the-video-section_grid{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .video_grid{
+    width: 45%;
+    position: relative;
+    margin: 0em 2.5%;
+  }
+  .grid_img{
+    width: 100%;
+    position: relative;
+    .fa{
+      position: absolute;
+      z-index: 5;
+      color: white;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 6em;
+    }
+    img{
+      width: 100%;
+    }
+  }
+  .the-video-section_grid{
+    margin: auto;
+    h2{
+      color: $green;
+      font-size: 2em;
+    }
+    p{
+      line-height: 30px;
+      width: 90%;
+    }
+  }
+}
+
+@media(min-width: $bp-lg){
+  .three-col-ros{
+    display: flex;
+    max-width: 100%;
+    padding: 2em 0em 4em 0em;
+  }
+  .three-ros-item{
+    width: 33%;
+  }
+}
